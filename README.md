@@ -43,7 +43,7 @@ npm run dev
 docker build -t <<YOUR-APP-NAME>> .
 
 //then run the docker
-docker run -p 3000:3000 -e EXT_PUBLIC_API_URL=<<YOUR_NEXT_PUBLIC_API_URL>> <<YOUR-APP-NAME>>
+docker run -p 3000:3000 -e NEXT_PUBLIC_API_URL=<<YOUR_NEXT_PUBLIC_API_URL>> <<YOUR-APP-NAME>>
 ```
 
 ### 2. Using Docker Compose (Recommended)
